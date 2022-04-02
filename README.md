@@ -3,7 +3,7 @@ The paper has been published in Multimedia Tools and Applications.
 The detail can be seen in [paper](https://github.com/liuzywen/BGRDNet/blob/main/BGRDNet%20.pdf)
 
 
-##Abstract: 
+# Abstract: 
 Traditional U-Net framework generates multi-level features by the successive convolution and pooling operations, and then decodes the saliency cue by progressive upsampling and skip connection. The multi-level features are generated from the same input source, but quite different with each other. In this paper, we explore the complementarity among multi-level features, and decode them by Bi-GRU. Since multi-level features are different in the size, we first propose scale adjustment module to organize multi-level features into sequential data with the same channel and resolution. The core unit SAGRU of Bi-GRU is then devised based on self-attention, which can effectively fuse the history and current input. Based on the designed SAGRU, we further present the bidirectional decoding fusion module,
 which decoding the multi-level features in both down-top and top-down manners. The proposed bidirectional gated recurrent decoding network is applied in the RGB-D salient object detection, which leverages the depth map as a complementary information. Concretely, we put forward depth guided residual module to enhance the color feature. Experimental results demonstrate our method outperforms the state-of-the-art methods in the six popular benchmarks. Ablation studies also verify each module plays an important role.
 
