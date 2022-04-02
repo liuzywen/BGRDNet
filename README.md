@@ -1,5 +1,5 @@
 # BGRDNet: RGB-D Salient Object Detection with a Bidirectional Gated Recurrent Decoding Network
-The paper has been published in Multimedia Tools and Applications.[paper]()
+The paper has been published in Multimedia Tools and Applications.[paper](https://github.com/liuzywen/BGRDNet/blob/main/BGRDNet%20.pdf)
 
 
 ##Abstract
