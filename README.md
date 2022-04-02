@@ -4,9 +4,8 @@ The paper has been published in Multimedia Tools and Applications.
 
 ## Pretraing 
 
-链接：https://pan.baidu.com/s/1veASJR08IqR3Q4tMMa6kFA 
-提取码：1xb2 
-
+链接：https://pan.baidu.com/s/1bxO0ygO3VXUjPXntleVNtg 
+提取码：b9yd 
 
 
 
@@ -29,11 +28,12 @@ https://drive.google.com/file/d/1mYjaT_FTlY4atd-c0WdQ-0beZIpf8fgh/view?usp=shari
 If you find the information useful, please consider citing:
 
 ```
-@inproceedings{liu2021tritransnet,
-  title={BGRDNet: RGB-D Salient Object Detection with a Bidirectional Gated Recurrent Decoding Network},
-  author={Liu, Zhengyi and Wang, Yuan and Tu, Zhengzheng and Xiao, Yun and Tang, Bin},
-  booktitle={Multimedia Tools and Applications},
-  pages={4481--4490},
-  year={2022}
+@article{liu2022bgrdnet,
+  title={BGRDNet: RGB-D salient object detection with a bidirectional gated recurrent decoding network},
+  author={Liu, Zhengyi and Wang, Yuan and Zhang, Zhili and Tan, Yacheng},
+  journal={Multimedia Tools and Applications},
+  pages={1--21},
+  year={2022},
+  publisher={Springer}
 }
 ```
