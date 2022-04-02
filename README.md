@@ -1,5 +1,5 @@
 # BGRDNet: RGB-D Salient Object Detection with a Bidirectional Gated Recurrent Decoding Network
-The paper has been published in Multimedia Tools and Applications.
+The paper has been published in Multimedia Tools and Applications.[paper]
 
 ##Abstract
 Traditional U-Net framework generates multi-level features by the successive convolution and pooling operations, and then decodes the saliency cue by progressive upsampling and skip connection. The multi-level features are generated from the same input source, but quite different with each other. In this paper, we explore the complementarity among multi-level features, and decode them by Bi-GRU. Since multi-level features are different in the size, we first propose scale adjustment module to organize multi-level features into sequential data with the same channel and resolution. The core unit SAGRU of Bi-GRU is then devised based on self-attention, which can effectively fuse the history and current input. Based on the designed SAGRU, we further present the bidirectional decoding fusion module,
